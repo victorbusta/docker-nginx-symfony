@@ -1,2 +1,2 @@
 rest_api/mysql
-**/api/composer.lock
+rest_api/app/composer.lock
