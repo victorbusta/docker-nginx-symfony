@@ -6,10 +6,10 @@ services:
     container_name: db_docker_symfony_fpm
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: '!password_here!'
+      MYSQL_ROOT_PASSWORD: password_here
       MYSQL_DATABASE: app_db
       MYSQL_USER: db_user
-      MYSQL_PASSWORD: '!password_here!'
+      MYSQL_PASSWORD: password_here
     volumes:
       - ./mysql:/var/lib/mysql
     ports:
